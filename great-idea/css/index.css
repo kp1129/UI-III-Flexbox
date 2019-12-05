@@ -150,3 +150,15 @@ footer {
 }
 
 /* services page styles */
+
+
+
+
+
+.serviceType {
+	width: 48%;
+}
+
+ul li {
+	list-style-type: disc;
+}
