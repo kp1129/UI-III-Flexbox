@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* index page styles */
 .main {
 	width: 70%;
 	margin: 0 auto;
@@ -72,6 +72,8 @@ h1, h2, h3, h4, h5 {
 .container {
 	display: flex;
 }
+
+/* header styles */
 
 nav.container {
 	justify-content: space-between;
@@ -95,7 +97,7 @@ div.title {
 }
 
 .title img {
-	width: 70%;
+	width: 60%;
 }
 
 nav a {
@@ -109,7 +111,7 @@ hr {
 }
 
 h1 {
-	font-size: 3.5em;
+	font-size: 4em;
 	text-align: center;
 }
 
@@ -118,11 +120,20 @@ h1 {
 	padding: 2px 30px;
 }
 
+/* main area styles */
+
 section.container {
 	justify-content: space-between;
 	margin: 20px 0;
 }
 
+div.section-one {
+	width: 49%;
+}
+
+div.section-two {
+	width: 32%;
+}
 .container.center {
 	justify-content: center;
 	
@@ -132,6 +143,10 @@ section.container {
 	max-width: 100%;
 }
 
+/* footer styles */
+
 footer {
 	margin-bottom: 20px;
 }
+
+/* services page styles */
